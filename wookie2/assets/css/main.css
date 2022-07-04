@@ -1,0 +1,462 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('../fonts/AvenirNextCyr-Regular.eot');
+    src: url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
+    url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --avenirnext: 'Avenir Next', sans-serif;
+    --avenirnextcyr: 'Avenir Next Cyr', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--avenirnextcyr);
+    padding: 0 10px;
+    margin: 0;
+    overflow-x: hidden
+}
+
+h1, h2, h3, h4, h5 {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.effective-wrapper{
+    margin-bottom: 95px;
+}
+
+.effective-wrapper h1{
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.effective-wrapper-item  {
+    position: relative;
+    width: 100%;
+    max-width: 1336px;
+    box-shadow: 0px -1px 23px 4px rgba(218, 220, 233, 0.61);
+    border-radius: 34px;
+    padding: 40px 0;
+    margin: 0 auto;
+    
+}
+
+.wookie-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 355px;
+    height: 355px;
+    background: #F3F4FB;
+    border-radius: 1000px;
+    margin: 0 auto;
+}
+
+.wookie-wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+.effective-item {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    font-family: var(--avenirnextcyr);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.item-1 {
+    top: 0;
+    left: calc(50% - 125px);
+}
+
+.item-2 {
+    top: calc(50% - 25px);
+    right: -180px;
+}
+
+.item-3 {
+    bottom: 0;
+    left: calc(50% - 125px);
+}
+
+.item-4 {
+    top: calc(50% - 25px);
+    left: -185px;
+}
+
+.offers-wrapper h2 {
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #23254D;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.offers-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offers-items_inner {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.offers-item {
+    max-width: 296px;
+    max-height: 482px;
+    background: #F3F4FB;
+    border-radius: 20px;
+    padding-bottom: 38px;
+    
+
+}
+
+.offers-item_services{
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 96.5%;
+    text-align: center;
+    color: #2F3CAF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.offers-item_serv_left {
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 96.5%;
+    text-align: center;
+    color: #2F3CAF;
+    padding-top: 60px;
+    padding-bottom: 22px;
+}
+
+.offers-item_text{
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 118.1%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.offers-item span{
+    padding-top: 52px;
+    padding-bottom: 52px;
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 96.5%;
+    text-align: center;
+    display: block;
+}
+
+.offers-item img{
+    margin: 12px auto 56px;
+    display: block;
+}
+
+.offers-item_link{
+    max-width: 184px;
+    background: #F2BB37;
+    border-radius: 26px;
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: #23254D;
+    text-align: center;
+    display: block;
+}
+
+.offers-item_link_1{
+    margin-top: 79px;
+}
+
+.offers-item_link_2{
+    margin-top: 98px;
+}
+
+.offers-item_link_3{
+    margin-top: 98px;
+}
+
+.contact_us{
+    max-width: 1092px;
+    margin: 45px auto 0;
+}
+
+.contact_us-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_us_text-mobile{
+    display: none;
+}
+
+.contact_us img{
+    display: block;
+}
+
+.contact_us_text{
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 96.5%;
+    color: #23254D;
+}
+
+.contact_us a{
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #23254D;
+    display: block;
+    background: #F2BB37;
+    border-radius: 20px;
+    padding: 8px 13px ;
+}
+
+.contacts {
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F4FB;
+    border-radius: 20px;
+    padding: 25px 55px 25px 35px;
+    margin: 45px auto;
+}
+
+.contacts-title {
+    font-family: var(--avenirnext);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 96.5%;
+    color: #23254D;
+}
+
+.contacts-link {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link img {
+    display: block;
+    margin-right: 10px;
+}
+
+.contacts-link a {
+    display: block;
+    font-family: var(--avenirnextcyr);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .effective-wrapper{
+        margin-bottom: 70px;
+    }
+
+    .offers-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers-items_inner{
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact_us_text-mobile{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact_us_text-desctop{
+        display: none;
+    }
+    .contact_us{
+        flex-direction: column;
+    }
+
+    .contact_us-inner{
+        justify-content: center;
+    }
+
+    .contact_us-inner img{
+        margin-right: 16px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        background: none;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contacts-link {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .effective-wrapper h1{
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .effective-wrapper h1 span{
+        display: none;
+    }
+
+    .effective-wrapper-item{
+        box-shadow: none;
+        padding: 0;
+
+    }
+    .wookie-wrapper{
+        background: none;
+        height: auto;
+        /*  margin: 0;*/
+
+    }
+
+    .effective-item{
+        position: static;
+        flex-direction: column;
+        margin-bottom: 19px;
+        margin-left: 24px;
+        text-align: left;
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 118.1%;
+
+    }
+    .item_media{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .item-3{
+        max-width: 176px;
+
+    }
+    .item_media_text{
+        width: 179px;
+
+    }
+    .item_media img{
+        width: 152px;
+        height: 152px;
+    }
+    .offers-wrapper h2{
+        display: none;
+    }
+
+    .offers-items_inner{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .offers-item{
+        margin-bottom: 48px;
+    }
+
+    .contact_us{
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .wookie-wrapper{
+        width: 100%;
+    }
+    .wookie-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+
+    .item_media img{
+        width: 120px;
+    }
+}
